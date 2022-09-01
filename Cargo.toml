@@ -1,0 +1,23 @@
+[package]
+name = "rust-1001"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "enums"
+path = "src/enums/main.rs"
+
+[[bin]]
+name = "threads"
+path = "src/threads/main.rs"
+
+[[bin]]
+name = "threads2"
+path = "src/threads2/main.rs"
+
+
+[[bin]]
+name = "macro1"
+path = "src/macro1/main.rs"
+
+[dependencies]
