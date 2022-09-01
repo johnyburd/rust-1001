@@ -18,7 +18,7 @@ mod tests {
     #[test]
     fn this_test_will_fail() {
         let value = prints_and_returns_10(8);
-        assert_eq!(5, value);
+        assert_eq!(10, value);
     }
 }
 

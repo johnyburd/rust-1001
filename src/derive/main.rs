@@ -24,7 +24,7 @@ fn main() {
         state: State::Good,
     };
 
-    assert_eq!(test, test2);
+    assert!(test == test2);
 
     let test3 = test2.clone();
 
