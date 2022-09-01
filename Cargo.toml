@@ -4,6 +4,34 @@ version = "0.1.0"
 edition = "2021"
 
 [[bin]]
+name = "test"
+path = "src/test/main.rs"
+
+[[bin]]
+name = "tests"
+path = "src/tests/main.rs"
+
+
+[[bin]]
+name = "option"
+path = "src/option/main.rs"
+
+[[bin]]
+name = "generics"
+path = "src/generics/main.rs"
+
+[[bin]]
+name = "generics2"
+path = "src/generics2/main.rs"
+
+
+[[bin]]
+name = "errors"
+path = "src/errors/main.rs"
+
+
+
+[[bin]]
 name = "enums"
 path = "src/enums/main.rs"
 
@@ -15,9 +43,34 @@ path = "src/threads/main.rs"
 name = "threads2"
 path = "src/threads2/main.rs"
 
+[[bin]]
+name = "lifetime"
+path = "src/lifetime/main.rs"
 
 [[bin]]
-name = "macro1"
-path = "src/macro1/main.rs"
+name = "macro"
+path = "src/macro/main.rs"
+
+[[bin]]
+name = "macro2"
+path = "src/macro2/main.rs"
+
+
+[[bin]]
+name = "thiserror"
+path = "src/thiserror/main.rs"
+
+[[bin]]
+name = "derive"
+path = "src/derive/main.rs"
+
+[[bin]]
+name = "derive2"
+path = "src/derive2/main.rs"
+
 
 [dependencies]
+thiserror = "1.0.33"
+serde = { version = "1.0.143", features = ["derive"] }
+serde_json = "1.0.83"
+serde_yaml = "0.9.10"
